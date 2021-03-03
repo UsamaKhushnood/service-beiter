@@ -4,7 +4,6 @@
       <div class="col-md-12 p-0" style="min-height: 55px; max-height: 60px;">
         <ThemeNavigation />
       </div>
-      nabeel
       <div class="col-md-2 p-0">
         <ThemeSidebar />
       </div>
@@ -13,9 +12,12 @@
           <div class="col-md-12 p-0" style="min-height: 30px; max-height: 30px; overflow: hidden">
             <ThemeBreadCrumb />   
           </div>
-          <div class="col-md-12 p-0" style="min-height: calc(100vh - 130px)">
+          <div class="col-md-12 p-0" id="ROUTER-VIEW" style="min-height: calc(100vh - 130px)">
             <RouterView />
-          </div>
+        </div>
+        
+            
+          
           <div class="col-md-12 p-0" style="min-height: 40px; max-height: 40px;">
             <ThemeFooter />
           </div>
@@ -30,9 +32,12 @@ import ThemeNavigation from '@/components/ThemeNavigation'
 import ThemeSidebar from '@/components/ThemeSidebar'
 import ThemeBreadCrumb from '@/components/ThemeBreadCrumb'
 import ThemeFooter from '@/components/ThemeFooter'
+
+
 export default {
   components: {
-    ThemeNavigation, ThemeSidebar, ThemeBreadCrumb, ThemeFooter
+    ThemeNavigation, ThemeSidebar, ThemeBreadCrumb, ThemeFooter,
+   
   }
 }
 </script>

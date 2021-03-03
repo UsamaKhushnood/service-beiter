@@ -221,8 +221,9 @@ a:hover>.label {
     background: none;
     padding: 3px 0px;
     font-weight: normal;
-    font-size: 11px;
+    font-size: 13px;
     margin-bottom: 0;
+    margin-left: 28px;
 }
 
 .breadcrumb>.active {
@@ -268,7 +269,12 @@ textarea:focus {
 .input-group-addon {
     border-color: #D5D5D5;
 }
-
+.row.pdng10-0.searchBar {
+    display: flow-root;
+}
+.row.pdng10-0.searchBar form{
+    display: flex;
+}
 
 /* Custom Input Wrapper */
 
@@ -2323,6 +2329,7 @@ div.tagsinput span.tag a {
     padding-bottom: 20px;
     border-top: 1px solid #E5E5E5;
     border-bottom: 1px solid #E5E5E5;
+    padding-left: 4%;
 }
 
 .vd_title-section .subtitle {
@@ -2360,6 +2367,7 @@ div.tagsinput span.tag a {
 
 .vd_content-section .row {
     margin-bottom: 20px;
+    display: flow-root;
 }
 
 .content-style-2 .vd_head-section {
@@ -7561,6 +7569,9 @@ footer .vd_bottom {
 
 .dashboardPanels {
     padding-bottom: 5px;
+    display: flex;
+    padding-left: 3%;
+    padding-right: 3%;
 }
 
 .dashboardPanel {
@@ -7716,6 +7727,7 @@ footer .vd_bottom {
     border-top: 1px solid #D2D2D2;
     border-bottom: 1px solid #D2D2D2;
     margin-top: 20px;
+  
 }
 
 .searchBar select,
@@ -7762,6 +7774,7 @@ footer .vd_bottom {
 
 .projectRow a {
     color: #333 !important;
+    display: flex;
 }
 
 .infoModal .progress-sm {
@@ -8064,4 +8077,18 @@ footer .vd_bottom {
 
 .chart path:hover {
     opacity: 0.65;
+}
+.row.pdng10.searchBar.filterBar.contractBar {
+    display: flow-root;
+}
+.row.pdng10.searchBar.filterBar.contractBar form{
+    display: flex;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+.searchBar select, .searchBar input {
+    background: #fff;
+    display: block;
+    width: 90%;
+    height: 35px;
 }

@@ -9,86 +9,86 @@
 			<div class="vd_menu scrolled-menu">
 				<ul>
 					<li>
-						<a href="index.html">
+						<router-link to="/dashboard">
 							<span class="menu-icon"><i class="fa fa-dashboard"></i></span>
 							<span class="menu-text">Dashboard</span>
-						</a>
+						</router-link>
 					</li>
 					<li>
-						<a href="request.html">
+						<router-link to="/NewRequest">
 							<span class="menu-icon"><i class="fa fa-flag-o"></i></span>
 							<span class="menu-text">New Request</span>
-						</a>
+						</router-link>
 					</li>
 					<!--<li>
-						<a href="javascript:void(0);" data-action="click-trigger">
+						<router-link to="javascript:void(0);" data-action="click-trigger">
 							<span class="menu-icon"><i class="fa fa-files-o"></i></span>
 							<span class="menu-text">Reports</span>
 							<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-						</a>
+						</router-link>
 						<div class="child-menu" data-action="click-target">
 							<ul>
 								<li>
-									<a href="ticket/" target="_blank"><span class="menu-text"><span class="append-icon icon-paperplane"></span> Ticket</span></a>
+									<router-link to="ticket/" target="_blank"><span class="menu-text"><span class="append-icon icon-paperplane"></span> Ticket</span></router-link>
 								</li>
 								<li>
-									<a href="Live_Chat/livechat/index.html" target="_blank"><span class="menu-text"><span class="append-icon icon-chat"></span> Live Chat</span></a>
+									<router-link to="Live_Chat/livechat/index.html" target="_blank"><span class="menu-text"><span class="append-icon icon-chat"></span> Live Chat</span></router-link>
 								</li>
 							</ul>
 						</div>
 					</li>-->
 					<li>
-						<a href="javascript:void(0);" data-action="click-trigger">
+						<router-link to="javascript:void(0);" data-action="click-trigger">
 							<span class="menu-icon"><i class="fa fa-cubes"></i></span>
 							<span class="menu-text">Activity</span>
 							<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-						</a>
+						</router-link>
 						<div class="child-menu" data-action="click-target">
 							<ul>
 								<li>
-									<a href="projects.html"><span class="menu-text"><span class="append-icon icon-archive"></span> All Projects</span></a>
+									<router-link to="/AllProjects"><span class="menu-text"><span class="append-icon icon-archive"></span> All Projects</span></router-link>
 								</li>
 								<li>
-									<a href="contracts.html"><span class="menu-text"><span class="append-icon icon-briefcase"></span> All Contracts</span></a>
+									<router-link to="/AllContracts"><span class="menu-text"><span class="append-icon icon-briefcase"></span> All Contracts</span></router-link>
 								</li>
 								<li>
-									<a href="review.html"><span class="menu-text"><span class="append-icon fa fa-star-half-o"></span> Reviews</span></a>
+									<router-link to="/Reviews"><span class="menu-text"><span class="append-icon fa fa-star-half-o"></span> Reviews</span></router-link>
 								</li>
 								<li>
-									<a href="appointment.html"><span class="menu-text"><span class="append-icon fa fa-calendar"></span> Appointments</span></a>
+									<router-link to="/Appointments"><span class="menu-text"><span class="append-icon fa fa-calendar"></span> Appointments</span></router-link>
 								</li>
 								<li>
-									<a href="javascript:void(0);" data-action="click-trigger" class=""> 
+									<router-link to="javascript:void(0);" data-action="click-trigger" class=""> 
 										<span class="menu-text"><span class="append-icon icon-sharable"></span> Purchase Services</span> 
 										<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-									</a> 
+									</router-link> 
 									<div class="child-menu" data-action="click-target" style="display: none;">
 										<ul class="clearfix">
-											<li> <a href="purchase.html"> 
+											<li> <router-link to="/AllServices"> 
 												<span class="menu-text"><span class="append-icon icon-drawer"></span> All Services</span> 
-												</a> 
+												</router-link> 
 											</li>
-											<li> <a href="sale-history.html"> 
+											<li> <router-link to="/SaleHistory"> 
 												<span class="menu-text"><i class="append-icon fa fa-fw fa-history"></i> Sale History</span> 
-												</a> 
+												</router-link> 
 											</li>
 										</ul>
 									</div>  
 								</li>
 								<li>
-									<a href="javascript:void(0);" data-action="click-trigger" class=""> 
+									<router-link to="javascript:void(0);" data-action="click-trigger" class=""> 
 										<span class="menu-text"><span class="append-icon icon-graduation"></span> Jobs</span> 
 										<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-									</a> 
+									</router-link> 
 									<div class="child-menu" data-action="click-target" style="display: none;">
 										<ul class="clearfix">
-											<li> <a href="search-jobs.html"> 
+											<li> <router-link to="/SearchJobs"> 
 												<span class="menu-text"><i class="append-icon glyphicon glyphicon-zoom-in"></i> Search Jobs</span> 
-												</a> 
+												</router-link> 
 											</li>
-											<li> <a href="job-offers.html"> 
+											<li> <router-link to="/JobOffers"> 
 												<span class="menu-text"><span class="append-icon icon-megaphone"></span> Job Offers</span> 
-												</a> 
+												</router-link> 
 											</li>
 										</ul>
 									</div>  
@@ -97,141 +97,141 @@
 						</div>
 					</li>
 					<li>
-						<a href="javascript:void(0);" data-action="click-trigger">
+						<router-link to="javascript:void(0);" data-action="click-trigger">
 							<span class="menu-icon"><i class="fa fa-bar-chart-o"></i></span>
 							<span class="menu-text">Marketing</span>
 							<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-						</a>
+						</router-link>
 						<div class="child-menu" data-action="click-target">
 							<ul>
 								<li>
-									<a href="emaileditor" target="_blank"><span class="menu-text"><i class="append-icon fa fa-fw fa-envelope"></i> News Letter</span></a>
+									<router-link to="/NewsLetter" target="_blank"><span class="menu-text"><i class="append-icon fa fa-fw fa-envelope"></i> News Letter</span></router-link>
 								</li>
 								<li>
-									<a href="javascript:void(0);"><span class="menu-text"><i class="append-icon glyphicon glyphicon-comment"></i> Popups Settings</span></a>
+									<router-link to="/PopupsSeting"><span class="menu-text"><i class="append-icon glyphicon glyphicon-comment"></i> Popups Settings</span></router-link>
 								</li>
 								<li>
-									<a href="discount.html"><span class="menu-text"><i class="append-icon glyphicon glyphicon-tags"></i> Discount</span></a>
+									<router-link to="/Discount"><span class="menu-text"><i class="append-icon glyphicon glyphicon-tags"></i> Discount</span></router-link>
 								</li>
 							</ul>
 						</div>
 					</li>
 					<li>
-						<a href="javascript:void(0);" data-action="click-trigger">
+						<router-link to="javascript:void(0);" data-action="click-trigger">
 							<span class="menu-icon"><i class="fa fa-credit-card"></i></span>
 							<span class="menu-text">Payments</span>
 							<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-						</a>
+						</router-link>
 						<div class="child-menu" data-action="click-target">
 							<ul>
 								<li>
-									<a href="upfront-request.html"><span class="menu-text"><span class="append-icon icon-arrow-up2"></span> Upfront Request</span></a>
+									<router-link to="/UpfrontRequest"><span class="menu-text"><span class="append-icon icon-arrow-up2"></span> Upfront Request</span></router-link>
 								</li>
 								<li>
-									<a href="refund-request.html"><span class="menu-text"><span class="append-icon icon-cycle"></span> Refund Request</span></a>
+									<router-link to="/RefundRequest"><span class="menu-text"><span class="append-icon icon-cycle"></span> Refund Request</span></router-link>
 								</li>
 								<li>
-									<a href="release-request.html"><span class="menu-text"><span class="append-icon icon-target"></span> Release Request</span></a>
+									<router-link to="/ReleaseRequest"><span class="menu-text"><span class="append-icon icon-target"></span> Release Request</span></router-link>
 								</li>
 								<li>
-									<a href="escrows.html"><span class="menu-text"><span class="append-icon icon-cw"></span> Escrow Accounts</span></a>
+									<router-link to="/EscrowAccounts"><span class="menu-text"><span class="append-icon icon-cw"></span> Escrow Accounts</span></router-link>
 								</li>
 								<li>
-									<a href="pay-in-pay-out.html"><span class="menu-text"><span class="append-icon icon-credit-card"></span> PayIn / PayOut Accounts</span></a>
+									<router-link to="/PayAccounts"><span class="menu-text"><span class="append-icon icon-credit-card"></span> PayIn / PayOut Accounts</span></router-link>
 								</li>
 								<li>
-									<a href="payouts.html"><span class="menu-text"><span class="append-icon icon-add-to-list"></span> Payouts</span></a>
+									<router-link to="/Payouts"><span class="menu-text"><span class="append-icon icon-add-to-list"></span> Payouts</span></router-link>
 								</li>
 								<li>
-									<a href="invoice.html"><span class="menu-text"><span class="append-icon icon-info2"></span> Invoice</span></a>
+									<router-link to="/Invoice"><span class="menu-text"><span class="append-icon icon-info2"></span> Invoice</span></router-link>
 								</li>
 							</ul>
 						</div>
 					</li>
 					<li>
-						<a href="javascript:void(0);" data-action="click-trigger">
+						<router-link to="javascript:void(0);" data-action="click-trigger">
 							<span class="menu-icon"><i class="fa fa-users"></i></span>
 							<span class="menu-text">Customer</span>
 							<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-						</a>
+						</router-link>
 						<div class="child-menu" data-action="click-target">
 							<ul>
 								<li>
-									<a href="companies.html"><span class="menu-text"><span class="append-icon icon-vcard"></span> Portal Clients</span></a>
+									<router-link to="/PortalClients"><span class="menu-text"><span class="append-icon icon-vcard"></span> Portal Clients</span></router-link>
 								</li>
 								<li>
-									<a href="users.html"><span class="menu-text"><span class="append-icon icon-users"></span> Portal Users</span></a>
+									<router-link to="/PortalUsers"><span class="menu-text"><span class="append-icon icon-users"></span> Portal Users</span></router-link>
 								</li>
 							</ul>
 						</div>
 					</li>
 					<li>
-						<a href="javascript:void(0);" data-action="click-trigger">
+						<router-link to="javascript:void(0);" data-action="click-trigger">
 							<span class="menu-icon"><i class="fa fa-money"></i></span>
 							<span class="menu-text">Income</span>
 							<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-						</a>
+						</router-link>
 						<div class="child-menu" data-action="click-target">
 							<ul>
 								<li>
-									<a href="portal-income.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-check-square-o"></i> Portal Income</span></a>
+									<router-link to="portal-income.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-check-square-o"></i> Portal Income</span></router-link>
 								</li>
 								<li>
-									<a href="client-income.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-check"></i> Client Income</span></a>
+									<router-link to="client-income.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-check"></i> Client Income</span></router-link>
 								</li>
 							</ul>
 						</div>
 					</li>
 					<li class="active">
-						<a href="javascript:void(0);" data-action="click-trigger" class="open">
+						<router-link to="javascript:void(0);" data-action="click-trigger" class="open">
 							<span class="menu-icon"><i class="fa fa-gear"></i></span>
 							<span class="menu-text">Portal Settings</span>
 							<span class="menu-badge"><span class="badge vd_bg-black-30"><i class="fa fa-angle-down"></i></span></span>
-						</a>
+						</router-link>
 						<div class="child-menu" data-action="click-target" style="display:block;">
 							<ul>
 								<li>
-									<a href="languages.html"><span class="menu-text"><span class="append-icon icon-language"></span> Website Languages</span></a>
+									<router-link to="/ManageLanguages"><span class="menu-text"><span class="append-icon icon-language"></span> Website Languages</span></router-link>
 								</li>
 								<li>
-									<a href="settings.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-gears"></i> Website Settings</span></a>
+									<router-link to="/WebsiteSettings"><span class="menu-text"><i class="append-icon fa fa-fw fa-gears"></i> Website Settings</span></router-link>
 								</li>
 								<li class="active">
-									<a href="company-type.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-asterisk"></i> Company Type</span></a>
+									<router-link to="/CompanyType"><span class="menu-text"><i class="append-icon fa fa-fw fa-asterisk"></i> Company Type</span></router-link>
 								</li>	
 								<li>
-									<a href="add-countrys.html">
+									<router-link to="/AddCountry">
 										<span class="menu-text">
 											<i class="append-icon glyphicon glyphicon-tags"></i> Add Countrys</span>
-									</a>
+									</router-link>
 								</li>
 								<li>
-									<a href="administrator.html"><span class="menu-text"><span class="append-icon icon-user"></span> Admin</span></a>
+									<router-link to="/Administrator"><span class="menu-text"><span class="append-icon icon-user"></span> Admin</span></router-link>
 								</li>
 								<li>
-									<a href="text-module.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-file-text-o"></i> Text Module</span></a>
+									<router-link to="/TextModule"><span class="menu-text"><i class="append-icon fa fa-fw fa-file-text-o"></i> Text Module</span></router-link>
 								</li>
 								<li>
-									<a href="policy-terms.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-gavel"></i> Policy&amp;Terms</span></a>
+									<router-link to="/Policy"><span class="menu-text"><i class="append-icon fa fa-fw fa-gavel"></i> Policy&amp;Terms</span></router-link>
 								</li>
 								<li>
-									<a href="services.html"><span class="menu-text"><i class="append-icon glyphicon glyphicon-qrcode"></i> Our Services</span></a>
+									<router-link to="/OurServices"><span class="menu-text"><i class="append-icon glyphicon glyphicon-qrcode"></i> Our Services</span></router-link>
 								</li>
 								<li>
-									<a href="service-comission.html"><span class="menu-text"><i class="append-icon glyphicon glyphicon-usd"></i> Service Comission</span></a>
+									<router-link to="/ServiceComission"><span class="menu-text"><i class="append-icon glyphicon glyphicon-usd"></i> Service Comission</span></router-link>
 								</li>
 								<li class="active">
-									<a href="account.html"><span class="menu-text"><i class="append-icon fa fa-fw fa-level-up"></i> Account Upgrade Client</span></a>
+									<router-link to="/AccountUpgradeClient"><span class="menu-text"><i class="append-icon fa fa-fw fa-level-up"></i> Account Upgrade Client</span></router-link>
 								</li>
 								<li>
-									<a href="company_skill.html"><span class="menu-text"><span class="append-icon fa fa-cogs"></span> Company Skill</span></a>
+									<router-link to="/CompanySkill"><span class="menu-text"><span class="append-icon fa fa-cogs"></span> Company Skill</span></router-link>
 								</li>
                                 <li>
-									<a href="company-character.html"><span class="menu-text"><span class="append-icon fa fa-check-square-o"></span> Company Character</span></a>
+									<router-link to="/CompanyCharacter"><span class="menu-text"><span class="append-icon fa fa-check-square-o"></span> Company Character</span></router-link>
 								</li>
                                 
 								<li>
-									<a href="bids.html"><span class="menu-text"><span class="append-icon icon-database"></span> Bids Amount Client</span></a>
+									<router-link to="/BidsAmountClient"><span class="menu-text"><span class="append-icon icon-database"></span> Bids Amount Client</span></router-link>
 								</li>
 							</ul>
 						</div>
@@ -243,10 +243,10 @@
 		<div class="vd_menu vd_navbar-bottom-widget">
 			<ul>
 				<li>
-					<a href="login.html">
+					<router-link to="login.html">
 						<span class="menu-icon"><i class="fa fa-sign-out"></i></span>
 						<span class="menu-text">Logout</span>
-					</a>
+					</router-link>
 				</li>
 			</ul>
 		</div><!-- vd_menu end -->		
