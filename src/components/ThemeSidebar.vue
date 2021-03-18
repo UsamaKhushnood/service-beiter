@@ -9,9 +9,9 @@
 			<div class="vd_menu scrolled-menu">
 				<ul>
 					<li>
-						<router-link to="/dashboard">
+						<router-link to="AllProjects">
 							<span class="menu-icon"><i class="fa fa-dashboard"></i></span>
-							<span class="menu-text">Dashboard</span>
+							<span class="menu-text">Dashboadrd</span>
 						</router-link>
 					</li>
 					<li>
