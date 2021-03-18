@@ -109,7 +109,7 @@
                     </li>
                   </ul>
                   <div class="tab-content">
-                    <div id="serviceComission" class="tab-pane active fade in">
+                    <div id="serviceComission" class="tab-pane active   in">
                       <div class="pd-20">
                         <table class="table table-hover">
                           <colgroup>
@@ -231,7 +231,7 @@
                       </div>
                     </div>
 
-                    <div id="salesComission" class="tab-pane fade">
+                    <div id="salesComission" class="tab-pane  ">
                       <div class="pd-20">
                         <table class="table table-hover">
                           <colgroup>

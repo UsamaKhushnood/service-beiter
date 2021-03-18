@@ -1,7 +1,7 @@
 <template>
   <div id="JobOffers">
     <div
-      class="modal fade"
+      class="modal  "
       id="theReason"
       tabindex="-1"
       role="dialog"
@@ -46,7 +46,7 @@
 
     <!-- ON HOLD -->
     <div
-      class="modal fade"
+      class="modal  "
       id="onHold"
       tabindex="-1"
       role="dialog"
@@ -91,7 +91,7 @@
 
     <!-- DENIED -->
     <div
-      class="modal fade"
+      class="modal  "
       id="denied"
       tabindex="-1"
       role="dialog"
@@ -136,7 +136,7 @@
 
     <!-- ACCEPTED -->
     <div
-      class="modal fade"
+      class="modal  "
       id="onAccept"
       tabindex="-1"
       role="dialog"
@@ -181,7 +181,7 @@
 
     <!-- SUCCESSFULLY ADDED -->
     <div
-      class="modal fade"
+      class="modal  "
       id="successAdd"
       tabindex="-1"
       role="dialog"
@@ -222,7 +222,7 @@
 
     <!-- VIEW -->
     <div
-      class="modal right fade"
+      class="modal right  "
       id="viewAccept"
       tabindex="-1"
       role="dialog"
@@ -260,7 +260,7 @@
 
     <!-- DENY THIS REQUEST -->
     <div
-      class="modal fade"
+      class="modal  "
       id="denyRequest"
       tabindex="-1"
       role="dialog"
@@ -310,7 +310,7 @@
 
     <!-- HOLD THIS REQUEST -->
     <div
-      class="modal fade"
+      class="modal  "
       id="holdRequest"
       tabindex="-1"
       role="dialog"

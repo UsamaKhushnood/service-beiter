@@ -10,7 +10,7 @@
       <div class="col-md-10 ">
         <div class="row" style="min-height: calc(100vh - 60px);">
           <div class="col-md-12 p-0" style="min-height: 30px; max-height: 30px; overflow: hidden">
-            <ThemeBreadCrumb />   
+            <Breadcrumbs/>
           </div>
           <div class="col-md-12 p-0" id="ROUTER-VIEW" style="min-height: calc(100vh - 130px)">
             <RouterView />
@@ -30,13 +30,13 @@
 // import Home from '@/views/Home'
 import ThemeNavigation from '@/components/ThemeNavigation'
 import ThemeSidebar from '@/components/ThemeSidebar'
-import ThemeBreadCrumb from '@/components/ThemeBreadCrumb'
+// import ThemeBreadCrumb from '@/components/ThemeBreadCrumb'
 import ThemeFooter from '@/components/ThemeFooter'
 
 
 export default {
   components: {
-    ThemeNavigation, ThemeSidebar, ThemeBreadCrumb, ThemeFooter,
+    ThemeNavigation, ThemeSidebar, ThemeFooter,
    
   }
 }

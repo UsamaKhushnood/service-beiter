@@ -1,7 +1,7 @@
 <template>
   <div id="PayAccounts">
     <div
-      class="modal fade"
+      class="modal  "
       id="addPayIn"
       tabindex="-1"
       role="dialog"
@@ -68,7 +68,7 @@
 
     <!-- ADD NEW PAYOUT ACCOUNT -->
     <div
-      class="modal fade"
+      class="modal  "
       id="addPayOut"
       tabindex="-1"
       role="dialog"
@@ -135,7 +135,7 @@
 
     <!-- EDIT PAYWAY -->
     <div
-      class="modal fade"
+      class="modal  "
       id="editPayWay"
       tabindex="-1"
       role="dialog"
@@ -195,7 +195,7 @@
 
     <!-- REMOVE PAYMENT WAY -->
     <div
-      class="modal fade"
+      class="modal  "
       id="removePayWay"
       tabindex="-1"
       role="dialog"

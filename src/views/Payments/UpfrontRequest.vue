@@ -92,7 +92,7 @@
           <div class="vd_content-section clearfix">
             <div class="row">
               <div class="col-sm-12 tabs">
-                <div id="category1" class="active tab-pane fade in">
+                <div id="category1" class="active tab-pane   in">
                   <div class="tabs widget">
                     <ul class="nav nav-tabs widget">
                       <li class="active">
@@ -113,7 +113,7 @@
                       </li>
                     </ul>
                     <div class="tab-content">
-                      <div id="upfrontDone" class="tab-pane active fade in">
+                      <div id="upfrontDone" class="tab-pane active   in">
                         <div class="pd-20">
                           <div class="row">
                             <div class="col-md-12">
@@ -181,7 +181,7 @@
 
                       <!-- new-request-tab SECTION 1 END -->
 
-                      <div id="upfrontDenied" class="tab-pane fade">
+                      <div id="upfrontDenied" class="tab-pane  ">
                         <div class="pd-20">
                           <div class="row">
                             <div class="col-md-12">

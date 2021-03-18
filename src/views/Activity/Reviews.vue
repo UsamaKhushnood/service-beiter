@@ -71,7 +71,7 @@
                 <!-- Start tabs content -->
                 <div class="panel-body">
                   <div class="tab-content">
-                    <div class="tab-pane fade in active" id="tab1-1">
+                    <div class="tab-pane   in active" id="tab1-1">
                       <div class="panel">
                         <div class="panel-heading">
                           <div class="pull-left">
@@ -237,7 +237,7 @@
 
               <!-- MODALS start -->
               <div
-                class="modal fade bs-example-modal-table-zip-unseen"
+                class="modal   bs-example-modal-table-zip-unseen"
                 id="modalunseen"
                 tabindex="-1"
                 role="dialog"
@@ -378,7 +378,7 @@
               </div>
 
               <div
-                class="modal fade bs-example-modal-table-zip-seen"
+                class="modal   bs-example-modal-table-zip-seen"
                 tabindex="-1"
                 role="dialog"
                 aria-hidden="true"
@@ -571,7 +571,7 @@
 
             <!-- SUBCATEGORIES -->
             <div
-              class="modal fade"
+              class="modal  "
               id="subcategories"
               tabindex="-1"
               role="dialog"
@@ -725,7 +725,7 @@
 
             <!-- SERVICES -->
             <div
-              class="modal fade"
+              class="modal  "
               id="services"
               tabindex="-1"
               role="dialog"
@@ -879,7 +879,7 @@
 
             <!-- BLOCK THIS JOB -->
             <div
-              class="modal fade"
+              class="modal  "
               id="blockThisJob"
               tabindex="-1"
               role="dialog"
@@ -920,7 +920,7 @@
 
             <!-- REMOVE THIS JOB -->
             <div
-              class="modal fade"
+              class="modal  "
               id="removeThisJob"
               tabindex="-1"
               role="dialog"
@@ -961,7 +961,7 @@
 
             <!-- CONTRACT DETAILS -->
             <div
-              class="modal right fade infoModal"
+              class="modal right   infoModal"
               id="viewContract"
               tabindex="-1"
               role="dialog"
@@ -1039,7 +1039,7 @@
                         <div class="col-md-9">
                           <div class="tab-content no-bd mrgn0 pdng0">
                             <!-- contrDetails -->
-                            <div class="tab-pane active fade in" id="contrDetails">
+                            <div class="tab-pane active   in" id="contrDetails">
                               <div class="panel widget container-fluid">
                                 <div class="row">
                                   <div class="col-md-6">
@@ -1334,7 +1334,7 @@
 
                             <!-- contrFiles -->
 
-                            <div class="tab-pane fade" id="contrFiles">
+                            <div class="tab-pane  " id="contrFiles">
                               <div
                                 class="row mrgn15-0 projectRow vd_bg-light-grey vd_bdl-green brdl4"
                               >
@@ -1416,7 +1416,7 @@
 
                             <!-- contrMilestones -->
 
-                            <div class="tab-pane fade" id="contrMilestones">
+                            <div class="tab-pane  " id="contrMilestones">
                               <div class="container-fluid">
                                 <h3>Contract Milestones</h3>
                                 <hr class="mrgn10-0" />
@@ -1498,7 +1498,7 @@
 
                             <!-- contrTasks -->
 
-                            <div class="tab-pane fade" id="contrTasks">
+                            <div class="tab-pane  " id="contrTasks">
                               <div class="container-fluid">
                                 <h3>All Tasks</h3>
                                 <hr class="mrgn10-0" />
@@ -1551,7 +1551,7 @@
 
                             <!-- contrInvoices -->
 
-                            <div class="tab-pane fade" id="contrInvoices">
+                            <div class="tab-pane  " id="contrInvoices">
                               <div class="container-fluid">
                                 <h3>Contract Invoices ($890)</h3>
                                 <hr class="mrgn10-0" />
@@ -1645,7 +1645,7 @@
 
                             <!-- contrPayments -->
 
-                            <div class="tab-pane fade" id="contrPayments">
+                            <div class="tab-pane  " id="contrPayments">
                               <div class="container-fluid">
                                 <div class="row pdng15-0">
                                   <div class="col-sm-3">
@@ -1725,7 +1725,7 @@
 
                             <!-- contrMembers -->
 
-                            <div class="tab-pane fade" id="contrMembers">
+                            <div class="tab-pane  " id="contrMembers">
                               <div class="container-fluid">
                                 <h3>Contract Members</h3>
                                 <hr class="mrgn10-0" />
@@ -1798,7 +1798,7 @@
 
             <!-- VIEW THIS JOB -->
             <div
-              class="modal right fade"
+              class="modal right  "
               id="viewThisJob"
               tabindex="-1"
               role="dialog"
@@ -1832,7 +1832,7 @@
 
             <!-- VIEW PROPOSALS -->
             <div
-              class="modal right fade"
+              class="modal right  "
               id="viewProposals"
               tabindex="-1"
               role="dialog"
@@ -1866,7 +1866,7 @@
 
             <!-- SHOW FILE -->
             <div
-              class="modal fade"
+              class="modal  "
               id="showFile"
               tabindex="-1"
               role="dialog"
@@ -1918,12 +1918,12 @@
                         </li>
                       </ul>
                       <div class="tab-content">
-                        <div id="filePreview" class="tab-pane fade in active">
+                        <div id="filePreview" class="tab-pane   in active">
                           <p class="text-center">
                             <img src="img/products/06.jpg" alt style="max-width:100%" />
                           </p>
                         </div>
-                        <div id="fileDescription" class="tab-pane fade">
+                        <div id="fileDescription" class="tab-pane  ">
                           <p>
                             Won&#39;t very spirit lesser appear give replenish
                             divide made Gathering sixth dominion grass in. You
@@ -1932,7 +1932,7 @@
                             beast. Of their bearing don&#39;t. Appear and fifth.
                           </p>
                         </div>
-                        <div id="fileTask" class="tab-pane fade">
+                        <div id="fileTask" class="tab-pane  ">
                           <table class="table table-condensed table-striped">
                             <tbody>
                               <tr>

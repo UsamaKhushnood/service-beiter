@@ -95,7 +95,7 @@
                       </li>
                     </ul>
                     <div class="tab-content">
-                      <div id="clientInvoice" class="tab-pane fade in active">
+                      <div id="clientInvoice" class="tab-pane   in active">
                         <div class=" table-responsive">
                           <div class="col-md-12 pdng0">
                             <table
@@ -154,7 +154,7 @@
                         <!-- row end -->
                       </div>
                       <!-- tab-pane end -->
-                      <div id="userInvoice" class="tab-pane fade ">
+                      <div id="userInvoice" class="tab-pane   ">
                         <div class="table-responsive">
                           <div class="col-md-12 pdng0">
                             <table

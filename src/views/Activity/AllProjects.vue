@@ -124,10 +124,21 @@
             <div class="row">
               <div class="col-md-12">
                 <div class="tab-content no-bd mrgn0 pdng0">
-                  <div class="tab-pane active fade in" id="category1">
+                  <div class="tab-pane active   in" id="category1">
                     <div class="panel widget container-fluid">
                       <div class="row mrgn30-0 projectRow">
                         <div class="vd_panel-menu">
+                                                      <div class="dropdown">
+  <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    Dropdown link
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">Action</a>
+    <a class="dropdown-item" href="#">Another action</a>
+    <a class="dropdown-item" href="#">Something else here</a>
+  </div>
+</div>
                           <div
                             class="menu entypo-icon smaller-font"
                             data-placement="top"
@@ -586,7 +597,7 @@
                   </div>
                   <!--tab-pane end -->
 
-                  <div class="tab-pane fade" id="category2">
+                  <div class="tab-pane  " id="category2">
                     <div class="panel widget container-fluid">
                       <div class="row mrgn30-0 projectRow">
                         <div class="vd_panel-menu">
@@ -1049,7 +1060,7 @@
                   </div>
                   <!--tab-pane end -->
 
-                  <div class="tab-pane fade" id="category3">
+                  <div class="tab-pane  " id="category3">
                     <div class="panel widget container-fluid">
                       <div class="row mrgn30-0 projectRow">
                         <div class="vd_panel-menu">

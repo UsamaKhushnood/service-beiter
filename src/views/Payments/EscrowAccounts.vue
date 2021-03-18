@@ -1,7 +1,7 @@
 <template>
   <div id="EscrowAccounts">
     <div
-      class="modal right fade"
+      class="modal right  "
       id="viewThisUser"
       tabindex="-1"
       role="dialog"
@@ -962,7 +962,7 @@
 
     <!-- BLOCK THIS USER -->
     <div
-      class="modal fade"
+      class="modal  "
       id="blockThisUser1"
       tabindex="-1"
       role="dialog"
@@ -999,7 +999,7 @@
     </div>
 
     <div
-      class="modal fade"
+      class="modal  "
       id="blockThisUser2"
       tabindex="-1"
       role="dialog"
@@ -1034,7 +1034,7 @@
     </div>
 
     <div
-      class="modal fade"
+      class="modal  "
       id="blockThisUser3"
       tabindex="-1"
       role="dialog"
@@ -1070,7 +1070,7 @@
 
     <!-- SUSPEND THIS USER -->
     <div
-      class="modal fade"
+      class="modal  "
       id="suspendThisUser"
       tabindex="-1"
       role="dialog"
@@ -1117,7 +1117,7 @@
 
     <!-- UNBLOCK THIS USER -->
     <div
-      class="modal fade"
+      class="modal  "
       id="unblockThisUser"
       tabindex="-1"
       role="dialog"
@@ -1164,7 +1164,7 @@
 
     <!-- RESUME THIS USER -->
     <div
-      class="modal fade"
+      class="modal  "
       id="resumeThisUser"
       tabindex="-1"
       role="dialog"
@@ -1211,7 +1211,7 @@
 
     <!-- THE REASON IS -->
     <div
-      class="modal fade"
+      class="modal  "
       id="theReason"
       tabindex="-1"
       role="dialog"

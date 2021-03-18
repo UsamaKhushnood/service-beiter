@@ -78,7 +78,7 @@
             <div class="row">
               <div class="col-sm-12">
                 <!-- Category1 Tab -->
-                <div id="category1" class="active tab-pane fade in">
+                <div id="category1" class="active tab-pane   in">
                   <div class="col-sm-12">
                     <div class="row dashboardPanels">
                       <div

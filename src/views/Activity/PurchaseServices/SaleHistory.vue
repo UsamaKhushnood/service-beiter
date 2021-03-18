@@ -1,7 +1,7 @@
 <template>
   <div id="SaleHistory">
     <div
-      class="modal right fade"
+      class="modal right  "
       id="saleHistory"
       tabindex="-1"
       role="dialog"
@@ -97,7 +97,7 @@
                 <!-- Left Modal Deck end -->
                 <div class="col-md-9">
                   <div class="tab-content no-bd mrgn0 pdng0">
-                    <div class="tab-pane active fade in" id="sh-total">
+                    <div class="tab-pane active   in" id="sh-total">
                       <div class="panel widget">
                         <div class="panel-body table-responsive">
                           <table class="table discountTable">
@@ -133,7 +133,7 @@
                     </div>
                     <!--  tab-pane end -->
 
-                    <div class="tab-pane fade" id="sh-used">
+                    <div class="tab-pane  " id="sh-used">
                       <div class="panel widget">
                         <div class="panel-body table-responsive">
                           <table class="table discountTable">
@@ -169,7 +169,7 @@
                     </div>
                     <!--  tab-pane end -->
 
-                    <div class="tab-pane fade" id="sh-unused">
+                    <div class="tab-pane  " id="sh-unused">
                       <div class="panel widget">
                         <div class="panel-body table-responsive">
                           <table class="table discountTable">
@@ -205,7 +205,7 @@
                     </div>
                     <!--  tab-pane end -->
 
-                    <div class="tab-pane fade" id="sh-gift">
+                    <div class="tab-pane  " id="sh-gift">
                       <div class="panel widget">
                         <div class="panel-body table-responsive">
                           <table class="table discountTable">

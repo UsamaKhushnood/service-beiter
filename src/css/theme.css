@@ -269,12 +269,15 @@ textarea:focus {
 .input-group-addon {
     border-color: #D5D5D5;
 }
+
 .row.pdng10-0.searchBar {
     display: flow-root;
 }
-.row.pdng10-0.searchBar form{
+
+.row.pdng10-0.searchBar form {
     display: flex;
 }
+
 
 /* Custom Input Wrapper */
 
@@ -2367,7 +2370,6 @@ div.tagsinput span.tag a {
 
 .vd_content-section .row {
     margin-bottom: 20px;
-    display: flow-root;
 }
 
 .content-style-2 .vd_head-section {
@@ -6933,14 +6935,14 @@ body.sticky-menu-active header {
 
 .vd_navbar-left {
     margin-left: 0;
-    position: fixed;
-    padding-top: 63px;
     top: 0;
     left: 0;
     z-index: 2;
+    width: 100%;
 }
 
-.vd_navbar-left:before {
+
+/* .vd_navbar-left:before {
     display: block;
     width: 100%;
     height: 63px;
@@ -6949,7 +6951,7 @@ body.sticky-menu-active header {
     left: 0;
     content: '';
     background: #393D41;
-}
+} */
 
 .vd_navbar-right {
     margin-right: 0;
@@ -7727,7 +7729,6 @@ footer .vd_bottom {
     border-top: 1px solid #D2D2D2;
     border-bottom: 1px solid #D2D2D2;
     margin-top: 20px;
-  
 }
 
 .searchBar select,
@@ -8078,15 +8079,19 @@ footer .vd_bottom {
 .chart path:hover {
     opacity: 0.65;
 }
+
 .row.pdng10.searchBar.filterBar.contractBar {
     display: flow-root;
 }
-.row.pdng10.searchBar.filterBar.contractBar form{
+
+.row.pdng10.searchBar.filterBar.contractBar form {
     display: flex;
     padding-left: 1%;
     padding-right: 1%;
 }
-.searchBar select, .searchBar input {
+
+.searchBar select,
+.searchBar input {
     background: #fff;
     display: block;
     width: 90%;

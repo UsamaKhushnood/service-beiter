@@ -144,7 +144,7 @@
                 </div>
                 <div class="col-md-9">
                   <div class="tab-content no-bd mrgn0 pdng0">
-                    <div class="tab-pane active fade in" id="privacyPolicy">
+                    <div class="tab-pane active   in" id="privacyPolicy">
                       <div class="panel-body-list">
                         <form class="form-horizontal" action="#" role="form">
                           <div class="form-group">
@@ -156,7 +156,7 @@
                       </div>
                     </div>
 
-                    <div class="tab-pane fade" id="disclaimer">
+                    <div class="tab-pane  " id="disclaimer">
                       <div class="panel-body-list">
                         <form class="form-horizontal" action="#" role="form">
                           <div class="form-group">

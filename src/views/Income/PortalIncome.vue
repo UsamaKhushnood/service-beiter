@@ -168,7 +168,7 @@
                   </ul>
 
                   <div class="tab-content">
-                    <div id="monthlyIncome" class="tab-pane fade in active">
+                    <div id="monthlyIncome" class="tab-pane   in active">
                       <div class="row">
                         <div class="col-md-12">
                           <div class="panel widget">
@@ -329,7 +329,7 @@
                     </div>
                     <!-- home-tab -->
 
-                    <div id="yearlyIncome" class="tab-pane fade">
+                    <div id="yearlyIncome" class="tab-pane  ">
                       <div class="row">
                         <div class="col-md-12">
                           <div class="panel widget">

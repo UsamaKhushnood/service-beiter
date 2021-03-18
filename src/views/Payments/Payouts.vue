@@ -1,7 +1,7 @@
 <template>
   <div id="Payouts">
     <div
-      class="modal fade"
+      class="modal  "
       id="addPayWay"
       tabindex="-1"
       role="dialog"
@@ -67,7 +67,7 @@
 
     <!-- EDIT PAYMENT WAY -->
     <div
-      class="modal fade"
+      class="modal  "
       id="editPayWay"
       tabindex="-1"
       role="dialog"
@@ -114,7 +114,7 @@
 
     <!-- REMOVE PAYMENT WAY -->
     <div
-      class="modal fade"
+      class="modal  "
       id="removePayWay"
       tabindex="-1"
       role="dialog"
@@ -173,7 +173,7 @@
     </div>
 
     <div
-      class="modal fade"
+      class="modal  "
       id="adminmodal"
       tabindex="-1"
       role="dialog"
